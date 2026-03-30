@@ -17,6 +17,10 @@ main {
     padding: 2em;
     padding-top: 1em;
     margin: auto;
+
+    .email {
+        font-size: 1.3em;
+    }
 }
 
 nav {
