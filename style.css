@@ -9,8 +9,27 @@ header {
         font-optical-sizing: auto;
         font-size: 3em;
     }
-}
 
+    nav {
+        margin-left: -0.5em;
+        margin-top: 0.5em;
+        display: flex;
+        .navitem {
+            padding: 0.5em;
+            font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+            font-size: 1.3em;
+            color: black;
+            text-decoration: none;
+        }
+        .navitem:hover {
+            background-color: rgba(100, 148, 237, 0.3);
+            color: blue;
+        }
+        .filler {
+            flex-grow: 100;
+        }
+    }
+}
 
 main {
     max-width: 800px;
@@ -18,27 +37,13 @@ main {
     padding-top: 1em;
     margin: auto;
 
+    h2 {
+        font-family: "Inter", Calibri, sans-serif;
+        font-optical-sizing: auto;
+    }
+
     .email {
         font-size: 1.3em;
     }
 }
 
-nav {
-    margin-left: -0.5em;
-    margin-top: 0.5em;
-    display: flex;
-    .navitem {
-        padding: 0.5em;
-        font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-        font-size: 1.3em;
-        color: black;
-        text-decoration: none;
-    }
-    .navitem:hover {
-        background-color: rgba(100, 148, 237, 0.3);
-        color: blue;
-    }
-    .filler {
-        flex-grow: 100;
-    }
-}
